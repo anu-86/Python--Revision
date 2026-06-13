@@ -88,3 +88,87 @@ for i in range(1,6):
 		print(i,end=" ")
 	print()
 
+#Exercise 8 – Inverted Number Triangle
+'''Print:
+Plain text
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2
+1'''
+for i in range(5,0,-1):
+	for j in range(i):
+		print(j+1,end=" ")
+	print()
+
+#Exercise 9 – Left Triangle
+'''Print:
+Plain text
+*
+      * *
+    * * *
+  * * * *
+* * * * *'''
+for i in range(1,6):
+	print(' '*(5-i),end=" ")
+	for j in range(i):
+		print('*',end=" ")
+	print()
+
+#Exercise 10 – Pyramid
+'''Print:
+Plain text
+*
+   * *
+  * * *
+ * * * *
+* * * * *'''
+for i in range(1, 6):
+    print(" " * (5 - i), end="")
+    
+    for j in range(i):
+        print("* ", end="")
+    
+    print()
+
+#Exercise 11 – Inverted Pyramid
+'''Print:
+Plain text
+* * * * *
+ * * * *
+  * * *
+   * *
+    *'''
+
+for i in range(5,0,-1):
+	print(' '*(5-i),end=" ")
+	for j in range(i):
+		print('*',end=" ")
+	print()
+
+#Exercise 12 – Diamond
+'''Print:
+Plain text
+*
+   * *
+  * * *
+ * * * *
+* * * * *
+ * * * *
+  * * *
+   * *
+    *'''
+for i in range(1, 6):
+    print(" " * (5 - i), end="")
+    
+    for j in range(i):
+        print("* ", end="")
+    
+    print()
+for i in range(5, 0, -1):
+    print(" " * (5 - i), end="")
+    
+    for j in range(i):
+        print("* ", end="")
+    
+    print()
