@@ -1,0 +1,90 @@
+#Exercise 1 – Square Pattern
+'''Print:
+Plain text
+* * * *
+* * * *
+* * * *
+* * * *'''
+for i in range(4):
+	for j in range(4):
+		print('*',end=" ")
+	print()
+
+#Exercise 2 – Rectangle Pattern
+'''Print:
+Plain text
+* * * * *
+* * * * *
+* * * * *'''
+for i in range(3):
+	for j in range(5):
+		print('*',end=" ")
+	print()
+
+#Exercise 3 – Right Triangle
+'''Print:
+Plain text
+*
+* *
+* * *
+* * * *
+* * * * *'''
+for i in range(1,6):
+	for j in range(i):
+		print('*',end=" ")
+	print()
+
+#Exercise 4 – Inverted Triangle
+'''Print:
+Plain text
+* * * * *
+* * * *
+* * *
+* *
+*'''
+for i in range(5,0,-1):
+	for j in range(i):
+		print('*',end=" ")
+	print()
+
+#Exercise 5 – Number Triangle
+'''Print:
+Plain text
+1
+1 1
+1 1 1
+1 1 1 1
+1 1 1 1 1'''
+for i in range(1,6):
+	for j in range(i):
+		print('1',end=" ")
+	print()
+
+#Exercise 6 – Increasing Numbers
+'''Print:
+Plain text
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5'''
+for i in range(1,6):
+	print(''*(5-i),end=" ")
+	for j in range(j+1):
+		print('1',end=" ")
+	print()
+	
+
+#Exercise 7 – Same Number Row
+'''Print:
+Plain text
+1
+2 2
+3 3 3
+4 4 4 4
+5 5 5 5 5'''
+for i in range(1,6):
+	for j in range(i):
+		print(i,end=" ")
+	print()
+
